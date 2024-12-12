@@ -1,7 +1,6 @@
-export function costCalculator(cost) {
-    const fee = 3; 
-    const interestFee = cost * 0.01;
-    const monthlypayments = cost + interestFee + fee; 
-    return monthlypayments;
+export function costCalculator(mothlypayment) {
+    let cost = 3 + (mothlypayment * 1.01);
+    return cost;
 }
+
 console.log(costCalculator(process.argv[3]));

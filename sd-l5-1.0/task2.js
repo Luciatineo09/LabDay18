@@ -3,6 +3,5 @@ export class FriendNames {
       this.name1 = name1;
       this.name2 = name2;
       this.name3 = name3;
-
     }
   }
